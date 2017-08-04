@@ -10,6 +10,6 @@ public class FancyRestaurant implements Restaurant {
     @Override
     public void place(OrderType orderType) {
         System.out.println("Placing order for " + orderType
-                + " at the Fancy Restaurant.");
+                + " at the Fancy FancyRestaurant.");
     }
 }
