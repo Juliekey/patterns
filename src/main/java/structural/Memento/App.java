@@ -14,6 +14,7 @@ public class App {
         mementoKeeper.setMemento(supplier.saveMemento());
         // Continue changing originator
         supplier.setAddress("548 S Main St. Nowhere, KS");
+
         // gotta undo that entry, I entered the wrong address
         supplier.restoreMemento(mementoKeeper.getMemento());
     }
