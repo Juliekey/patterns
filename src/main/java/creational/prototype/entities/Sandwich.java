@@ -19,7 +19,6 @@ public class Sandwich implements SandwichPrototype, Cloneable {
 
     @Override
     public Sandwich clone() {
-        Sandwich sandwich;
         try {
             String ingredientList = getIngredientList();
             System.out.println("Cloning sandwich with ingredients: " + ingredientList);
