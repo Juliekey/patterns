@@ -1,6 +1,6 @@
-package observer.subjects;
+package behavioral.observer.subjects;
 
-import observer.observers.Restaurant;
+import behavioral.observer.observers.Restaurant;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -20,19 +20,19 @@ public class Vegetable {
     }
 
     /**
-     * Method for attaching a new observer. If this restaurant
+     * Method for attaching a new behavioral.observer. If this restaurant
      * already observes this vegetable it will not be attached again.
      *
-     * @param restaurant - observer
+     * @param restaurant - behavioral.observer
      */
     public void attach(Restaurant restaurant) {
         restaurants.add(restaurant);
     }
 
     /**
-     * Method for detaching an observer.
+     * Method for detaching an behavioral.observer.
      *
-     * @param restaurant an observer
+     * @param restaurant an behavioral.observer
      */
     public void detach(Restaurant restaurant) {
         restaurants.remove(restaurant);

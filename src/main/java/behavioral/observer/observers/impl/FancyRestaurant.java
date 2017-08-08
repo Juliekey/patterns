@@ -1,7 +1,7 @@
-package observer.observers.impl;
+package behavioral.observer.observers.impl;
 
-import observer.observers.Restaurant;
-import observer.subjects.Vegetable;
+import behavioral.observer.observers.Restaurant;
+import behavioral.observer.subjects.Vegetable;
 
 /**
  * Implementation of Observer

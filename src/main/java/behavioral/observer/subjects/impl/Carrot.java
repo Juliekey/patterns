@@ -1,6 +1,6 @@
-package observer.subjects.impl;
+package behavioral.observer.subjects.impl;
 
-import observer.subjects.Vegetable;
+import behavioral.observer.subjects.Vegetable;
 
 
 public class Carrot extends Vegetable {

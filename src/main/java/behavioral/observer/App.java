@@ -1,7 +1,7 @@
-package observer;
+package behavioral.observer;
 
-import observer.observers.impl.FancyRestaurant;
-import observer.subjects.impl.Carrot;
+import behavioral.observer.observers.impl.FancyRestaurant;
+import behavioral.observer.subjects.impl.Carrot;
 
 public class App {
     public static void main(String[] args) {

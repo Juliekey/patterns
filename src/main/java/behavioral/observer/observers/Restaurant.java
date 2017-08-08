@@ -1,6 +1,6 @@
-package observer.observers;
+package behavioral.observer.observers;
 
-import observer.subjects.Vegetable;
+import behavioral.observer.subjects.Vegetable;
 
 /**
  * Interface for observers of {@link Vegetable}
