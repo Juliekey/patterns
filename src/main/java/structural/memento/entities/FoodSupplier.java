@@ -1,4 +1,4 @@
-package structural.Memento.entities;
+package structural.memento.entities;
 
 /**
  * The Originator class, which is the

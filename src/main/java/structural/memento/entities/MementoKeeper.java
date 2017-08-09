@@ -1,4 +1,4 @@
-package structural.Memento.entities;
+package structural.memento.entities;
 
 /**
  * The Caretaker class. This class never examines the contents of any Memento

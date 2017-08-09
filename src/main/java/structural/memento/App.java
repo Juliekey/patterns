@@ -1,7 +1,7 @@
-package structural.Memento;
+package structural.memento;
 
-import structural.Memento.entities.FoodSupplier;
-import structural.Memento.entities.MementoKeeper;
+import structural.memento.entities.FoodSupplier;
+import structural.memento.entities.MementoKeeper;
 
 public class App {
     public static void main(String[] args) {
